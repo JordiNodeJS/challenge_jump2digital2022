@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer base {
   body {
     @apply bg-slate-300;
+  }
+}
+@layer components {
+  .card {
+    @apply font-rubik font-light p-4 border-4 border-[#dae9ef] hover:border-black bg-white hover:bg-[#5A45F2] rounded-lg transition-all duration-300 hover:scale-105 w-[284.33px] h-[476px];
   }
 }
