@@ -1,4 +1,4 @@
-import { datasvg01 } from './svgdata'
+import { svgdataPro } from './svgdata'
 
 const SvgPro = props => (
   <svg
@@ -8,16 +8,16 @@ const SvgPro = props => (
     xmlns='http://www.w3.org/2000/svg'
     xmlnsXlink='http://www.w3.org/1999/xlink'
     {...props}>
-    <path fill='url(#a)' d='M.333 0h204.333v80H.333z' />
+    <path fill='url(#a-SvgPro)' d='M.333 0h204.333v80H.333z' />
     <defs>
       <pattern
-        id='a'
+        id='a-SvgPro'
         patternContentUnits='objectBoundingBox'
         width={1}
         height={1}>
-        <use xlinkHref='#b' transform='matrix(.00084 0 0 .00214 .165 0)' />
+        <use xlinkHref='#b-SvgPro' transform='matrix(.00084 0 0 .00214 .165 0)' />
       </pattern>
-      <image id='b' width={800} height={468} xlinkHref={datasvg01} />
+      <image id='b-SvgPro' width={800} height={468} xlinkHref={svgdataPro} />
     </defs>
   </svg>
 )
