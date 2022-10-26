@@ -11,3 +11,17 @@
 - react
 - tailwindcss
 
+## Doc Dev 
+### How to create a vite project inside a folder already made.
+`npm create vite@lates ./`
+
+### How to incorporate tailwind to vite
+
+Install tailwindcss and its peer dependencies via npm, and then run the init command to generate both tailwind.config.cjs and postcss.config.cjs.
+
+```shell
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+### Follow the GUIDE 😜
+[Tailwind Guide for Vite](https://tailwindcss.com/docs/guides/vite)
