@@ -25,3 +25,11 @@ npx tailwindcss init -p
 ```
 ### Follow the GUIDE 😜
 [Tailwind Guide for Vite](https://tailwindcss.com/docs/guides/vite)
+
+### Eslint 😈
+[dev.to](https://dev.to/equiman/vite-powerful-react-project-g4m)
+
+```
+npm install -D eslint
+npx eslint --init
+```

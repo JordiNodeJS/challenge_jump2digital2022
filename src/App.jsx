@@ -1,7 +1,9 @@
+const Comp = props => <h1>hola {props.yourname}</h1>
+
 function App() {
   return (
     <div className='text-3xl font-bold underline'>
-      <h1>JUMP2DIGITAL</h1>
+      <Comp yourname='JUMP2DIGITAL' />
     </div>
   )
 }
