@@ -1,5 +1,4 @@
 const Price = ({ type, price, features }) => {
-  console.log(features)
   return (
     <div className='mt-4 flex flex-col'>
       <div className='font-light text-xs'>{type}</div>
