@@ -5,7 +5,8 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
-      rubik: ['Rubik']
+      rubik: ['Rubik'],
+      roboco: ['Roboto']
     },
     extend: {}
   },

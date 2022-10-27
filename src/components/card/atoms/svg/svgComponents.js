@@ -5,8 +5,53 @@ import SvgTeam2 from './SvgTeam2'
 import SvgTeam3 from './SvgTeam3'
 
 export const svgComponents = [
-  { svgs: [SvgFree], id: 1 },
-  { svgs: [SvgPro], id: 2 },
-  { svgs: [SvgTeam1, SvgTeam2, SvgTeam3], id: 3 }
+  {
+    svgs: [SvgFree],
+    id: 1,
+    type: 'Starter',
+    price: 'Free',
+    features: [
+      ['Full courses library', true],
+      ['A new daily meditation', true],
+      ['Access to the meditation guru', true],
+      ['Sleep podcasts and exercises', false],
+      ['Mindfulness exercises', false],
+      ['Guided miditations', false],
+      ['Cookin recipes', false]
+    ],
+    button: 'Get Started'
+  },
+  {
+    svgs: [SvgPro],
+    id: 2,
+    type: 'Pro',
+    price: '$49',
+    features: [
+      ['Full courses library', true],
+      ['A new daily meditation', true],
+      ['Access to the meditation guru', true],
+      ['Sleep podcasts and exercises', true],
+      ['Mindfulness exercises', true],
+      ['Guided miditations', false],
+      ['Cookin recipes', false]
+    ],
+    button: 'Become a Pro'
+  },
+  {
+    svgs: [SvgTeam1, SvgTeam2, SvgTeam3],
+    id: 3,
+    type: 'Teams',
+    price: '$99',
+    features: [
+      ['Full courses library', true],
+      ['A new daily meditation', true],
+      ['Access to the meditation guru', true],
+      ['Sleep podcasts and exercises', true],
+      ['Mindfulness exercises', true],
+      ['Guided miditations', true],
+      ['Cookin recipes', true]
+    ],
+    button: 'Get Teams'
+  }
 ]
 export default svgComponents
