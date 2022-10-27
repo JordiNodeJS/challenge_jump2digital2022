@@ -1,4 +1,4 @@
-const Price = ({ type, price, features }) => {
+const Price = ({ type, price }) => {
   return (
     <div className='mt-4 flex flex-col'>
       <div className='font-light text-xs'>{type}</div>

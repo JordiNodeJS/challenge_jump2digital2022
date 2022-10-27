@@ -1,3 +1,4 @@
+import Button from './atoms/Button'
 import Features from './atoms/Features'
 import Price from './atoms/Price'
 
@@ -32,7 +33,10 @@ const Card = ({ Svgs, card, ...rest }) => {
         <Price {...rest} />
       </section>
       <section>
-        <Features />
+        <Features {...rest} />
+      </section>
+      <section>
+        <Button card={card} {...rest} />
       </section>
     </article>
   )

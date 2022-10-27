@@ -18,7 +18,8 @@ export const svgComponents = [
       ['Mindfulness exercises', false],
       ['Guided miditations', false],
       ['Cookin recipes', false]
-    ]
+    ],
+    button: 'Get Started'
   },
   {
     svgs: [SvgPro],
@@ -33,7 +34,8 @@ export const svgComponents = [
       ['Mindfulness exercises', true],
       ['Guided miditations', false],
       ['Cookin recipes', false]
-    ]
+    ],
+    button: 'Become a Pro'
   },
   {
     svgs: [SvgTeam1, SvgTeam2, SvgTeam3],
@@ -48,7 +50,8 @@ export const svgComponents = [
       ['Mindfulness exercises', true],
       ['Guided miditations', true],
       ['Cookin recipes', true]
-    ]
+    ],
+    button: 'Get Teams'
   }
 ]
 export default svgComponents
