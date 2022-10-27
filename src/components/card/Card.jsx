@@ -12,7 +12,7 @@ const Card = ({ Svgs, card, ...rest }) => {
       const Svg2 = Svgs[2]
 
       return (
-        <section className='relative h-20 flex bg-slate-300'>
+        <section className='relative h-20 flex'>
           <Svg0 className='absolute left-2' />
           <Svg1 className='absolute left-[4.5rem]' />
           <Svg2 className='absolute left-32' />
@@ -20,7 +20,7 @@ const Card = ({ Svgs, card, ...rest }) => {
       )
     }
     return (
-      <section className='flex bg-slate-400'>
+      <section className='flex'>
         <Svg />
       </section>
     )
