@@ -1,7 +1,7 @@
-const Card = ({ title }) => {
+const Card = ({ Svgs }) => {
   return (
-    <div className='card'>
-      Card {title}
+    <div className='card bg-slate-400'>
+      <Svgs />
     </div>
   )
 }
