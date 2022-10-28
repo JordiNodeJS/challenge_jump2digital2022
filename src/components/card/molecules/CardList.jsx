@@ -1,4 +1,4 @@
-import { svgComponents } from './atoms/svg'
+import { svgComponents } from '../atoms/svg'
 import Card from './Card'
 
 const CardList = () => {

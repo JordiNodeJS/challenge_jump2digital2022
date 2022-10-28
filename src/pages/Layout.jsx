@@ -1,4 +1,4 @@
-import CardList from '../components/card/CardList'
+import CardList from '../components/card/molecules/CardList'
 
 const Layout = () => {
   return (
