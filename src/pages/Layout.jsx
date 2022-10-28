@@ -1,10 +1,15 @@
-import CardList from '../components/card/CardList'
+import ContextProvider from './Context'
+import CardList from '../components/card/molecules/CardList'
+import Modal from '../components/card/molecules/Modal'
 
 const Layout = () => {
   return (
-    <div className='flex justify-center items-center gap-4 pt-4 flex-wrap h-screen bg-slate-700'>
-      <CardList />
-    </div>
+    <ContextProvider>
+      <div className='flex justify-center items-center gap-4 pt-4 flex-wrap h-screen bg-slate-700'>
+        <CardList />
+      </div>
+      <Modal>This is a Modal</Modal>
+    </ContextProvider>
   )
 }
 

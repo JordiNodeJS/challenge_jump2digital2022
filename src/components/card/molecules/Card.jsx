@@ -1,6 +1,6 @@
-import Button from './atoms/Button'
-import Features from './atoms/Features'
-import Price from './atoms/Price'
+import Button from '../atoms/Button'
+import Features from '../atoms/Features'
+import Price from '../atoms/Price'
 
 const Card = ({ Svgs, card, ...rest }) => {
   const Svg = Svgs[0]
