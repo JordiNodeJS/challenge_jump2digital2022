@@ -3,18 +3,18 @@ import useContextModal from '../../../hooks/useContextModal'
 const Modal = ({ children }) => {
   const { open, handelModal } = useContextModal()
   return (
-    <div className={`fixed inset-0 ${open ? '' : 'pointer-events-none'}`}>
+    <div className={`fixed flex inset-0 ${open ? '' : 'pointer-events-none'}`}>
       {/* backdrop */}
       <div
-        className={`fixed inset-0 bg-black ${
-          open ? 'opacity-50' : 'pointer-events-none opacity-0'
-        }`}
+        className={`fixed inset-0 bg-indigo-700 ${
+          open ? 'opacity-70' : 'pointer-events-none opacity-0'
+        } transition-opacity duration-300 ease-in-out`}
         onClick={_ => handelModal(false)}
       />
 
       {/* content */}
       <div
-        className={`fixed right-0 h-full bg-white shadow-lg w-full max-w-screen-sm p-4 ${
+        className={`fixed md:left-[18%] md:top-[18%] lg:left-1/4 lg:top-1/4 h-96 w-full md:w-[500px]  bg-white shadow-lg rounded-lg p-4 ${
           open ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}>
         <div>
