@@ -11,6 +11,7 @@
 - vite
 - react
 - tailwindcss
+- headles ui
 
 ## Documentation just for development purposes.
 
@@ -60,4 +61,10 @@ And my personal [rules](https://eslint.org/docs/latest/rules/space-before-functi
     ]
   },
 ```
+### Conflict with prettier rules
+[Guide](https://github.com/prettier/eslint-config-prettier)
+`npm install --save-dev eslint-config-prettier`
+
+### Headless UI
+`npm install @headlessui/react`
 

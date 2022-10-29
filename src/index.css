@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-300;
+    @apply bg-gradient-to-tl from-indigo-800 via-indigo-400 to-indigo-200;
   }
 }
 @layer components {
