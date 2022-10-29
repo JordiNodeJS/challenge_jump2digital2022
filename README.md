@@ -32,7 +32,7 @@ npx tailwindcss init -p
 
 [Tailwind Guide for Vite](https://tailwindcss.com/docs/guides/vite)
 
-### Eslint 😈
+# Eslint 😈
 
 [dev.to](https://dev.to/equiman/vite-powerful-react-project-g4m)
 
@@ -41,12 +41,13 @@ npm install -D eslint
 npx eslint --init
 ```
 
-You should disable this rule by extending react/jsx-runtime in your eslint config (add "plugin:react/jsx-runtime" to "extends"), if you are using the new JSX transform from React 17.
-` extends: ['plugin:react/recommended', 'standard', 'plugin:react/jsx-runtime'],`
+You should disable _JSX transform rule_ by extending react/jsx-runtime in your eslint config (add "plugin:react/jsx-runtime" to "extends").
+
+` extends: ['plugin:react/recommended', 'standard', 'plugin:react/jsx-runtime']`
 
 And my personal [rules](https://eslint.org/docs/latest/rules/space-before-function-paren):
 
-``` javacript
+```javacript
   rules: {
     'no-console': 'warn',
     'react/prop-types': 'off',
@@ -61,10 +62,13 @@ And my personal [rules](https://eslint.org/docs/latest/rules/space-before-functi
     ]
   },
 ```
-### Conflict with prettier rules
+
+## Conflict with prettier rules
+
 [Guide](https://github.com/prettier/eslint-config-prettier)
+
 `npm install --save-dev eslint-config-prettier`
 
 ### Headless UI
-`npm install @headlessui/react`
 
+`npm install @headlessui/react`
