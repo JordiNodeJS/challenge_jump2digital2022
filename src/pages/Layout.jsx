@@ -8,7 +8,7 @@ const Layout = () => {
       <div className='flex justify-center items-center gap-4 pt-4 flex-wrap h-screen'>
         <CardList />
       </div>
-      <Modal>This is a Modal</Modal>
+      <Modal />
     </ContextProvider>
   )
 }

@@ -19,7 +19,7 @@ export const svgComponents = [
       ['Guided miditations', false],
       ['Cookin recipes', false]
     ],
-    button: 'Get Started'
+    buttonText: 'Get Started'
   },
   {
     svgs: [SvgPro],
@@ -35,7 +35,7 @@ export const svgComponents = [
       ['Guided miditations', false],
       ['Cookin recipes', false]
     ],
-    button: 'Become a Pro'
+    buttonText: 'Become a Pro'
   },
   {
     svgs: [SvgTeam1, SvgTeam2, SvgTeam3],
@@ -51,7 +51,7 @@ export const svgComponents = [
       ['Guided miditations', true],
       ['Cookin recipes', true]
     ],
-    button: 'Get Teams'
+    buttonText: 'Get Teams'
   }
 ]
 export default svgComponents
