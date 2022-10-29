@@ -3,11 +3,13 @@ import { useState, createContext } from 'react'
 export const Context = createContext()
 
 export default function ContextProvider({ children }) {
-  const [open, setOpen] = useState(false)
-  const handelModal = isOpen => setOpen(isOpen)
+  const [isOpen, setIsOpen] = useState(false)
+
+  const closeModal = () => setIsOpen(false)
+  const openModal = () => setIsOpen(true)
 
   return (
-    <Context.Provider value={{ open, handelModal }}>
+    <Context.Provider value={{ isOpen, closeModal, openModal }}>
       {children}
     </Context.Provider>
   )

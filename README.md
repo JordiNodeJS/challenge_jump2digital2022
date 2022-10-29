@@ -11,6 +11,7 @@
 - vite
 - react
 - tailwindcss
+- headles ui
 
 ## Documentation just for development purposes.
 
@@ -60,4 +61,6 @@ And my personal [rules](https://eslint.org/docs/latest/rules/space-before-functi
     ]
   },
 ```
+### Headless UI
+`npm install @headlessui/react`
 

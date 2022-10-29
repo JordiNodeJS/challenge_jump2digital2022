@@ -1,7 +1,7 @@
 import useContextModal from '../../../hooks/useContextModal'
 
 const Button = ({ button, card }) => {
-  const { handelModal } = useContextModal()
+  const { openModal } = useContextModal()
   card = Number(card)
   const colors =
     card === 1
@@ -12,7 +12,7 @@ const Button = ({ button, card }) => {
   return (
     <div className='flex justify-center'>
       <button
-        onClick={_ => handelModal(true)}
+        onClick={openModal}
         type='button'
         className={`${colors} flex justify-center w-11/12 py-3 px-4 rounded-lg border-2`}>
         {button} {card}
