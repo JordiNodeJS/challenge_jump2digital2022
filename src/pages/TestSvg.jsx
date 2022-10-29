@@ -1,8 +1,8 @@
-import SvgFree from '../components/card/svg/SvgFree'
-import SvgPro from '../components/card/svg/SvgPro'
-import SvgTeam1 from '../components/card/svg/SvgTeam1'
-import SvgTeam2 from '../components/card/svg/SvgTeam2'
-import SvgTeam3 from '../components/card/svg/SvgTeam3'
+import SvgFree from '@ui/card/svg/SvgFree'
+import SvgPro from '@ui/card/svg/SvgPro'
+import SvgTeam1 from '@ui/card/svg/SvgTeam1'
+import SvgTeam2 from '@ui/card/svg/SvgTeam2'
+import SvgTeam3 from '@ui/card/svg/SvgTeam3'
 
 const Comp = props => <h1>hola {props.yourname}</h1>
 

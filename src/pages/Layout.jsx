@@ -1,6 +1,6 @@
 import ContextProvider from './Context'
-import CardList from '../components/card/molecules/CardList'
-import Modal from '../components/card/molecules/Modal'
+import CardList from '@ui/card/molecules/CardList'
+import Modal from '@ui/card/molecules/Modal'
 
 const Layout = () => {
   return (
