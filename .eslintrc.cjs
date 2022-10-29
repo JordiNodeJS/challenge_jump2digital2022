@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['plugin:react/recommended', 'standard', 'plugin:react/jsx-runtime'],
+  extends: ['plugin:react/recommended', 'standard', 'plugin:react/jsx-runtime', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
