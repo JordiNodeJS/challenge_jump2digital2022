@@ -22,7 +22,7 @@ const Button = ({ buttonText = '', card, type = 'button' }) => {
         type={type}
         className={`${colors} w-11/12 py-3 px-4 rounded-lg border-2`}
       >
-        {buttonText} {card}
+        {buttonText}
       </button>
     </div>
   )
