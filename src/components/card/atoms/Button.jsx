@@ -1,6 +1,6 @@
 import useContextModal from '@hooks/useContextModal'
 
-const Button = ({ buttonText = '', card }) => {
+const Button = ({ buttonText = '', card, type = 'button' }) => {
   const { openModal, setCardColor } = useContextModal()
   card = Number(card)
 
@@ -19,8 +19,8 @@ const Button = ({ buttonText = '', card }) => {
     <div className="flex justify-center">
       <button
         onClick={handleButton}
-        type="button"
-        className={`${colors} flex justify-center w-11/12 py-3 px-4 rounded-lg border-2`}
+        type={type}
+        className={`${colors} w-11/12 py-3 px-4 rounded-lg border-2`}
       >
         {buttonText} {card}
       </button>

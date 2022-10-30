@@ -35,11 +35,11 @@ const Modal = () => {
                   <Dialog.Title
                     as='h3'
                     className='text-lg font-medium leading-6 text-gray-900'>
-                    Give us your Email
+                   Enter your email.
                   </Dialog.Title>
                   <div className='mt-2'>
                     <p className='text-sm text-gray-500'>
-                      Enter your email. We´ll get in touch with you sooner.
+                       We will get in touch with you for futher information sooner.
                     </p>
                     <Form />
                   </div>

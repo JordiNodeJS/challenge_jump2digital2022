@@ -11,9 +11,11 @@
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.0",
     "@headlessui/react": "^1.7.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.38.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",
@@ -21,7 +23,6 @@
     "@vitejs/plugin-react": "^2.2.0",
     "autoprefixer": "^10.4.12",
     "eslint": "^8.26.0",
-    "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.3.0",
