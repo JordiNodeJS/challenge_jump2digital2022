@@ -43,7 +43,7 @@ npx eslint --init
 
 You should disable _JSX transform rule_ by extending react/jsx-runtime in your eslint config (add "plugin:react/jsx-runtime" to "extends").
 
-` extends: ['plugin:react/recommended', 'standard', 'plugin:react/jsx-runtime']`
+` "extends": ['plugin:react/recommended', 'standard', 'plugin:react/jsx-runtime']`
 
 And my personal [rules](https://eslint.org/docs/latest/rules/space-before-function-paren):
 
@@ -63,11 +63,15 @@ And my personal [rules](https://eslint.org/docs/latest/rules/space-before-functi
   },
 ```
 
-## Conflict with prettier rules
+## Conflict with prettier rules if you're using it as formmater
 
 [Guide](https://github.com/prettier/eslint-config-prettier)
 
 `npm install --save-dev eslint-config-prettier`
+
+And **.eslintrc.cjs**:
+
+` extends: ['plugin:react/recommended', 'standard', 'plugin:react/jsx-runtime', 'prettier']`
 
 ### Headless UI
 
