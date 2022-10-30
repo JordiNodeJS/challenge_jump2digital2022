@@ -6,12 +6,21 @@
 
 [Figma resource](https://www.figma.com/file/8DTsCBsanZ0OEoLdiY1qzW/front_creator?node-id=4%3A194)
 
-## Stack Tech
+## Tecnological stack
 
-- vite
-- react
-- tailwindcss
-- headles ui
+- [Vite](https://vitejs.dev/) ⚡ (French word for ⚡"quick", pronounced /vit/, like "veet") is a build tool that aims to provide a ⚡faster and leaner development experience for modern web projects. ⛔ creat-react-app, why? 👉 It's slow, just bloody sluggish. Vite, under the hood, runs esbuild to compile the code. 💪 Written in Golang, a compileted language, result: blazing [fast](https://ageek.dev/esbuild) builds 👇 ![](./public/readme/benchmark.png)
+  - Welcome 🎉💗💓 [Tailwind CSS](https://tailwindcss.com/) works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file. It's⚡fast, flexible, and reliable — with zero-runtime. Goodby ⛔Bootstrap yet the bundle size is still too big.
+
+  - [Postcss](https://postcss.org/) 🏎⚡ is used to elimanate the need for a CSS preprocessor and to make it easier to add features like autoprefixing and custom properties. Goodby 🚫SASS. Postcss does tree-shaking; it's used to remove unused code from the bundle.
+  - [cssnano](https://cssnano.co/) is used to minify the css.
+- [React](https://reactjs.org/)
+
+  - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+- [react-hook-form](https://react-hook-form.com/) Intuitive, feature-complete API providing a seamless experience to developers when building forms. React Hook Form reduces the amount of code you need to write while removing unnecessary re-renders
+
+- [headles ui](https://headlessui.com/):  Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
+
 
 ## Documentation just for development purposes.
 

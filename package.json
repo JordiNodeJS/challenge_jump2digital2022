@@ -11,9 +11,11 @@
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@formspree/react": "^2.4.0",
     "@headlessui/react": "^1.7.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.38.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",
