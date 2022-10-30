@@ -21,7 +21,25 @@
 
 - [headles ui](https://headlessui.com/):  Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 
+## Deployment
+👁‍🗨 [WATCH THE CHALLENGE RUNNING HERE - ONLINE](https://amazing-kulfi-c2332b.netlify.app/)
 
+## instructions to set it up locally
+Clone the repo:
+
+`git clone https://github.com/JordiNodeJS/challenge_jump2digital2022`
+
+Change to the folder:
+
+`cd challenge_jump2digital2022`
+
+Install dependencies:
+
+`npm install`
+
+Let's run it!
+
+`npm run dev`
 ## Documentation just for development purposes.
 
 ### How to create a vite project inside a folder already made.
