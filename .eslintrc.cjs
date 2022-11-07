@@ -16,6 +16,7 @@ module.exports = {
     'no-console': 'warn',
     'react/prop-types': 'off',
     'react/self-closing-comp': 'warn',
+    'arrow-parens': ['error', 'as-needed'],
     'space-before-function-paren': [
       'error',
       {
